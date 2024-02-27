@@ -1,0 +1,53 @@
+.wiget {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-self: center;
+    margin-top: 30vh;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-field-input {
+    width: 50%;
+    align-self: center;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: large;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.item {
+    width: 30%;
+    height: 30px;
+    font-size: x-large;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 1%;
+    border: 1px solid rgb(131, 157, 240);
+    border-radius: 5px;
+}
+
+.message {
+    width: 100%;
+    font-size: large;
+    text-align: center;
+}
+
+.error {
+     color: rgb(231, 73, 73)
+}
